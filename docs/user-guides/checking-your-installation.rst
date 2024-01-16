@@ -224,7 +224,7 @@ mechanisms and exactly which is used can vary based on the operating system.
 Which mechanism is used can also be overridden in the Apache configuration
 if absolutely required.
 
-A simlar instance of a cross process mutex is also used for each mod_wsgi
+A similar instance of a cross process mutex is also used for each mod_wsgi
 daemon process group to mediate which process in the daemon process group
 gets to accept the next request proxied to that daemon process group via the
 Apache child processes.
